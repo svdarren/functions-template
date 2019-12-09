@@ -5,6 +5,8 @@ image:
 ports:
   - port: 8888   # default init was 3000
     onOpen: open-preview
+  - port: 3999
+    onOpen: ignore
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 tasks:
