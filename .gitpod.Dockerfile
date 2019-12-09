@@ -10,7 +10,5 @@ USER gitpod
 #     sudo rm -rf /var/lib/apt/lists/*
 #
 # More information: https://www.gitpod.io/docs/42_config_docker/
-RUN npm update -g && \
-    npm install netlify-cli -g && \
-    npm install netlify-lambda -g
+RUN npm update -g
     

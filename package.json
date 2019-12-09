@@ -22,5 +22,7 @@
   },
   "homepage": "https://github.com/svdarren/functions-template#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "netlify-cli": "^2.24.0"
+  }
 }
