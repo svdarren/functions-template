@@ -4,7 +4,11 @@
   "description": "Basic starting template for creating Lambda functions using Netlify/AWS.  Starts with basic git, GitPod, and Netlify configurations.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "netlify dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "deploy": "echo \"Error: no deploy specified\" && exit 1",
+    "watch": "echo \"Error: no watch specified\" && exit 1"
   },
   "repository": {
     "type": "git",
