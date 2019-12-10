@@ -4,9 +4,9 @@ image:
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/43_config_ports/
 ports:
   - port: 8888   # default init was 3000
+    onOpen: open-browser
+  - port: 3999
     onOpen: ignore
-#  - port: 3999
-#    onOpen: ignore
 
 github:
   prebuilds:
