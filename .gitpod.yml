@@ -29,8 +29,8 @@ github:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 tasks:
+  - command: git config --global user.email $GIT_COMMITTER_EMAIL
   #- init: npm update -g && npm install netlify-cli -g && npm install netlify-lambda -g && npm install # runs during prebuild
   - init: npm install # runs during prebuild
     command: npm start
-  - init: echo "Is the var set? " $GIT_COMMITTER_EMAIL && git config --global user.email $GIT_COMMITTER_EMAIL
 #  - command: echo "Hello, World!""   # commands aren't processing while server is running
